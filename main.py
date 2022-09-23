@@ -1,7 +1,7 @@
 def greet():
     print("-------------------")
-    print("  Приветсвуем вас  ")
-    print("      в игре       ")
+    print("  Всем Хай  ")
+    print("      вы в игре    ")
     print("  крестики-нолики  ")
     print("-------------------")
     print(" формат ввода: x y ")
@@ -23,7 +23,7 @@ def ask():
         cords = input("         Ваш ход: ").split()
         
         if len(cords) != 2:
-            print(" Введите 2 координаты! ")
+            print(" Введите только 2 координаты! ")
             continue
         
         x, y = cords
